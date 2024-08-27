@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
-public class Num1264 {
+public class 모읨의_개수 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        while(true){
+        while (true) {
             String a = sc.nextLine();
-            if(a.equals("#")){
+            if (a.equals("#")) {
                 break;
             }
             a = a.toLowerCase();
             char[] cArray = a.toCharArray();
             int count = 0;
 
-            for(char c : cArray){
-                if(c =='a'|| c=='e' || c=='i'||c=='o'|| c=='u'){
+            for (char c : cArray) {
+                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
                     count++;
                 }
             }
